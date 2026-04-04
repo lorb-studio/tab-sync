@@ -1,0 +1,42 @@
+{
+  "name": "@lorb/tab-sync",
+  "version": "0.1.0",
+  "description": "Login in one tab, every tab knows. Cross-tab state sync with auth, theme, and leader election",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "broadcast-channel",
+    "cross-tab",
+    "tab-sync",
+    "state-sync",
+    "auth",
+    "theme",
+    "leader-election"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "homepage": "https://lorb.studio",
+  "author": "Lorb.studio <dev@lorb.studio> (https://lorb.studio)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorb-studio/make",
+    "directory": "tab-sync"
+  }
+}
