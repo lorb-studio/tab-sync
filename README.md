@@ -9,6 +9,10 @@
   <a href="https://www.npmjs.com/package/@lorb/tab-sync"><code>npm install @lorb/tab-sync</code></a>
 </p>
 
+<p align="center">
+  <img src="./demo.gif" alt="tab-sync demo" width="600">
+</p>
+
 **Cross-tab state sync** via BroadcastChannel. Auth tokens, theme preferences, cart state — any value you sync is instantly available in every open tab.
 
 **Built-in helpers** for the two most common cases: auth and theme. One-liners.
