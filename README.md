@@ -1,15 +1,13 @@
 <p align="center">
-  <a href="https://lorb.studio">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="../.github/logo-light.svg">
-      <img alt="Lorb.studio" src="../.github/logo-dark.svg" height="40">
-    </picture>
-  </a>
+  <img src=".github/icon.png" width="80" height="80" alt="tab-sync" />
 </p>
 
-# @lorb/tab-sync
+<h1 align="center">tab-sync</h1>
+<p align="center">Login in one tab, every tab knows. Instantly.</p>
 
-Login in one tab, every tab knows. Instantly.
+<p align="center">
+  <a href="https://www.npmjs.com/package/@lorb/tab-sync"><code>npm install @lorb/tab-sync</code></a>
+</p>
 
 **Cross-tab state sync** via BroadcastChannel. Auth tokens, theme preferences, cart state — any value you sync is instantly available in every open tab.
 
