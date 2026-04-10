@@ -32,11 +32,10 @@
   "engines": {
     "node": ">=22"
   },
-  "homepage": "https://lorb.studio",
+  "homepage": "https://github.com/lorb-studio/tab-sync",
   "author": "Lorb.studio <dev@lorb.studio> (https://lorb.studio)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lorb-studio/make",
-    "directory": "tab-sync"
+    "url": "https://github.com/lorb-studio/tab-sync"
   }
 }
